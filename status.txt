@@ -1,0 +1,13 @@
+common :
+
+admin
+  classroom
+    create content : check
+    update content : todo
+  student
+    create student : check
+    update content : todo
+
+  student
+    dashboard
+    

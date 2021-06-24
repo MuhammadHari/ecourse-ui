@@ -1,0 +1,30 @@
+.video-react {
+  background: transparent !important;
+}
+.video-react-video {
+}
+.video-react-control-bar {
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+root {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.p-absolute-center {
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+.d-none{
+  display: none;
+}
